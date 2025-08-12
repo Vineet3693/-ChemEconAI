@@ -1,0 +1,17 @@
+
+material_name,category,price_usd_per_kg,unit,volatility,supplier_location,description
+methanol,solvent,0.45,kg,medium,global,Methanol 99.5%
+ethanol,solvent,0.65,kg,medium,global,Ethanol 99.5%
+acetone,solvent,1.20,kg,high,global,Acetone 99.5%
+sodium_hydroxide,base,0.35,kg,low,global,Caustic soda 50% solution
+sulfuric_acid,acid,0.25,kg,medium,regional,Sulfuric acid 98%
+hydrochloric_acid,acid,0.30,kg,medium,regional,HCl 37% solution
+sodium_chloride,salt,0.08,kg,low,regional,Salt industrial grade
+calcium_carbonate,filler,0.12,kg,low,regional,Calcium carbonate precipitated
+hydrogen,gas,3.50,kg,high,regional,Hydrogen 99.9%
+oxygen,gas,0.15,m3,low,regional,Oxygen 99.5%
+nitrogen,gas,0.05,m3,low,regional,Nitrogen 99.9%
+steam,utility,0.015,kg,medium,local,Process steam
+catalyst_pd,catalyst,45000,kg,high,global,Palladium catalyst 5%
+catalyst_pt,catalyst,35000,kg,high,global,Platinum catalyst 2%
+enzyme_generic,biocatalyst,150,kg,medium,specialized,Industrial enzyme
