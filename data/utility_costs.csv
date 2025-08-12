@@ -1,0 +1,12 @@
+
+utility_type,unit,usa_gulf_coast,usa_northeast,europe_germany,asia_singapore,asia_china,description
+electricity,dollar_per_kWh,0.08,0.12,0.15,0.10,0.07,Industrial electricity
+steam_lp,dollar_per_ton,15.0,18.0,22.0,16.0,12.0,Low pressure steam (3 bar)
+steam_mp,dollar_per_ton,18.0,22.0,28.0,20.0,15.0,Medium pressure steam (10 bar)
+steam_hp,dollar_per_ton,22.0,28.0,35.0,25.0,18.0,High pressure steam (40 bar)
+cooling_water,dollar_per_m3,0.05,0.08,0.12,0.06,0.04,Cooling water
+process_water,dollar_per_m3,0.50,0.80,1.20,0.60,0.40,Process water (treated)
+natural_gas,dollar_per_MMBtu,8.0,12.0,15.0,10.0,6.0,Natural gas
+compressed_air,dollar_per_1000ft3,0.20,0.25,0.30,0.22,0.18,Compressed air (7 bar)
+nitrogen,dollar_per_m3,0.50,0.65,0.80,0.55,0.45,Nitrogen gas
+waste_treatment,dollar_per_m3,5.0,8.0,12.0,6.0,4.0,Wastewater treatment
