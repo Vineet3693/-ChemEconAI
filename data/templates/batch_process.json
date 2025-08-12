@@ -1,0 +1,112 @@
+
+{
+  "process_name": "Batch Chemical Synthesis",
+  "process_type": "batch",
+  "description": "Template for batch chemical synthesis process",
+  "production_rate": 500,
+  "operating_hours": 6000,
+  "batch_size": 1000,
+  "batches_per_year": 600,
+  "raw_materials": [
+    {
+      "name": "Reactant A",
+      "price": 2.50,
+      "consumption_rate": 800,
+      "supplier": "Chemical Corp",
+      "purity": 99.5
+    },
+    {
+      "name": "Reactant B", 
+      "price": 1.80,
+      "consumption_rate": 200,
+      "supplier": "Materials Inc",
+      "purity": 95.0
+    },
+    {
+      "name": "Catalyst",
+      "price": 50.0,
+      "consumption_rate": 5,
+      "supplier": "Catalyst Co",
+      "purity": 99.9
+    },
+    {
+      "name": "Solvent",
+      "price": 1.20,
+      "consumption_rate": 300,
+      "supplier": "Solvents Ltd",
+      "purity": 99.0
+    }
+  ],
+  "products": [
+    {
+      "name": "Product X",
+      "price": 8.50,
+      "yield": 85,
+      "purity": 98.0,
+      "market": "pharmaceutical"
+    }
+  ],
+  "equipment": [
+    {
+      "type": "reactor_batch",
+      "capacity": 1200,
+      "material": "stainless_steel",
+      "quantity": 2,
+      "description": "Main reaction vessel"
+    },
+    {
+      "type": "tank_storage",
+      "capacity": 2000,
+      "material": "carbon_steel",
+      "quantity": 3,
+      "description": "Raw material storage"
+    },
+    {
+      "type": "pump_centrifugal",
+      "capacity": 150,
+      "material": "stainless_steel", 
+      "quantity": 4,
+      "description": "Transfer pumps"
+    },
+    {
+      "type": "heat_exchanger_shell_tube",
+      "capacity": 25,
+      "material": "stainless_steel",
+      "quantity": 2,
+      "description": "Heating/cooling"
+    }
+  ],
+  "utilities": [
+    {
+      "type": "steam_mp",
+      "consumption": 1200,
+      "unit": "tons/year"
+    },
+    {
+      "type": "electricity",
+      "consumption": 250000,
+      "unit": "kWh/year"
+    },
+    {
+      "type": "cooling_water",
+      "consumption": 15000,
+      "unit": "m3/year"
+    },
+    {
+      "type": "process_water",
+      "consumption": 800,
+      "unit": "m3/year"
+    }
+  ],
+  "labor_requirements": {
+    "operator": 2,
+    "supervisor": 1,
+    "maintenance": 1
+  },
+  "process_conditions": {
+    "temperature": 80,
+    "pressure": 1.5,
+    "reaction_time": 4,
+    "complexity": "moderate"
+  }
+}
