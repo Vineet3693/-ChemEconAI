@@ -14,7 +14,7 @@ st.title("🤖 AI Process Economics Assistant")
 st.markdown("Get expert insights and recommendations for your chemical process economics!")
 
 # Check for API key
-if not (st.secrets.get("GROQ_API_KEY") or os.getenv("GROQ_API_KEY")):
+if not (st.secrets.get("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") or os.getenv("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")):
     st.error("⚠️ **Groq API key not found!**")
     st.markdown("""
     To use the AI Assistant, please add your Groq API key:
