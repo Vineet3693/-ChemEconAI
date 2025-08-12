@@ -1,0 +1,14 @@
+
+equipment_type,base_cost,base_capacity,base_capacity_unit,scaling_factor,material_cs,material_ss,material_hastelloy,description
+reactor_cstr,50000,1000,L,0.65,1.0,2.5,6.0,Continuous stirred tank reactor
+reactor_batch,45000,1000,L,0.70,1.0,2.5,6.0,Batch reactor with agitation
+distillation_column,80000,100,theoretical_plates,0.70,1.0,2.2,4.5,Distillation column with trays
+heat_exchanger_shell_tube,15000,50,m2,0.60,1.0,2.0,3.5,Shell and tube heat exchanger
+pump_centrifugal,3000,100,L_min,0.35,1.0,1.8,3.0,Centrifugal pump
+tank_storage,10000,1000,L,0.85,1.0,2.0,4.0,Storage tank
+compressor,25000,1000,m3_h,0.75,1.0,1.5,2.5,Centrifugal compressor
+mixer,8000,500,L,0.60,1.0,2.2,4.0,Industrial mixer
+crystallizer,35000,1000,L,0.68,1.0,2.8,5.5,Cooling crystallizer
+dryer_rotary,20000,1000,kg_h,0.65,1.0,2.0,3.5,Rotary dryer
+filter_pressure,12000,50,m2,0.70,1.0,2.5,4.5,Pressure filter
+evaporator,18000,1000,kg_h,0.72,1.0,2.3,4.0,Single effect evaporator
