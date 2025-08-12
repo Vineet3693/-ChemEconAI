@@ -110,3 +110,125 @@
     "complexity": "moderate"
   }
 }
+{
+  "process_name": "Continuous Chemical Production",
+  "process_type": "continuous", 
+  "description": "Template for continuous chemical production process",
+  "production_rate": 5000,
+  "operating_hours": 8400,
+  "raw_materials": [
+    {
+      "name": "Feedstock A",
+      "price": 1.20,
+      "consumption_rate": 1050,
+      "supplier": "Petrochemical Corp",
+      "purity": 98.0
+    },
+    {
+      "name": "Co-reactant",
+      "price": 3.00,
+      "consumption_rate": 150,
+      "supplier": "Specialty Chemicals",
+      "purity": 99.5
+    },
+    {
+      "name": "Solvent",
+      "price": 0.80,
+      "consumption_rate": 50,
+      "supplier": "Solvents Inc",
+      "purity": 99.0
+    }
+  ],
+  "products": [
+    {
+      "name": "Main Product",
+      "price": 6.20,
+      "yield": 92,
+      "purity": 99.2,
+      "market": "industrial"
+    },
+    {
+      "name": "By-product",
+      "price": 2.10,
+      "yield": 8,
+      "purity": 95.0,
+      "market": "commodity"
+    }
+  ],
+  "equipment": [
+    {
+      "type": "reactor_cstr",
+      "capacity": 5000,
+      "material": "stainless_steel",
+      "quantity": 2,
+      "description": "Main CSTR reactors"
+    },
+    {
+      "type": "distillation_column", 
+      "capacity": 150,
+      "material": "stainless_steel",
+      "quantity": 1,
+      "description": "Product separation"
+    },
+    {
+      "type": "heat_exchanger_shell_tube",
+      "capacity": 200,
+      "material": "stainless_steel",
+      "quantity": 6,
+      "description": "Heat integration"
+    },
+    {
+      "type": "pump_centrifugal",
+      "capacity": 500,
+      "material": "stainless_steel",
+      "quantity": 8,
+      "description": "Process pumps"
+    },
+    {
+      "type": "tank_storage",
+      "capacity": 10000,
+      "material": "carbon_steel",
+      "quantity": 4,
+      "description": "Storage tanks"
+    }
+  ],
+  "utilities": [
+    {
+      "type": "steam_hp",
+      "consumption": 8000,
+      "unit": "tons/year"
+    },
+    {
+      "type": "electricity", 
+      "consumption": 2000000,
+      "unit": "kWh/year"
+    },
+    {
+      "type": "cooling_water",
+      "consumption": 150000,
+      "unit": "m3/year"
+    },
+    {
+      "type": "process_water",
+      "consumption": 5000,
+      "unit": "m3/year"
+    },
+    {
+      "type": "natural_gas",
+      "consumption": 5000,
+      "unit": "MMBtu/year"
+    }
+  ],
+  "labor_requirements": {
+    "operator": 3,
+    "supervisor": 1,
+    "maintenance": 2,
+    "engineer": 1
+  },
+  "process_conditions": {
+    "temperature": 150,
+    "pressure": 8.0,
+    "residence_time": 2,
+    "complexity": "complex"
+  }
+}
